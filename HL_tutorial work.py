@@ -40,7 +40,7 @@ def main():
     status=None
     current_contender=random.choice(HL_dic) #independent selections
     challenger=random.choice(HL_dic) #independent selections
-    
+    print(logo)
     while not Gameover:
         contender_display=display_contender(current_contender)
         print(vs)
