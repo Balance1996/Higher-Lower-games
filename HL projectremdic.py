@@ -43,7 +43,7 @@ def main():
     status=None
     current_contender=random.choice(HL_dic)
     challenger=random.choice(HL_dic)
-    
+    print(logo)
     while not Gameover:
         contender_display=display_contender(current_contender)
         print(vs)
